@@ -9,7 +9,7 @@ MP = [-33.867127376303834, 151.21005889816965]
 
 @st.cache_data
 def data_load():
-    df = pd.read_csv('data/data.csv')
+    df = pd.read_csv('Data/data.csv')
     df = df.dropna()
     return df
 
